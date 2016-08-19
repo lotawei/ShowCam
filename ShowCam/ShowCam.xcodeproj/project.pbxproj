@@ -12,6 +12,8 @@
 		EDD60D531D671AA100C78F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D511D671AA100C78F8B /* Main.storyboard */; };
 		EDD60D551D671AA100C78F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D541D671AA100C78F8B /* Assets.xcassets */; };
 		EDD60D581D671AA100C78F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D561D671AA100C78F8B /* LaunchScreen.storyboard */; };
+		EDD60D681D671F4300C78F8B /* NiudunRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD60D671D671F4300C78F8B /* NiudunRotation.m */; };
+		EDD60D6A1D6724FF00C78F8B /* oval.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D691D6724FF00C78F8B /* oval.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		EDD60D541D671AA100C78F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD60D571D671AA100C78F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDD60D591D671AA100C78F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD60D621D671E2200C78F8B /* ShowCam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShowCam-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDD60D661D671F4300C78F8B /* NiudunRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiudunRotation.h; sourceTree = "<group>"; };
+		EDD60D671D671F4300C78F8B /* NiudunRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NiudunRotation.m; sourceTree = "<group>"; };
+		EDD60D691D6724FF00C78F8B /* oval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oval.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,10 @@
 		EDD60D411D671AA100C78F8B = {
 			isa = PBXGroup;
 			children = (
+				EDD60D691D6724FF00C78F8B /* oval.png */,
+				EDD60D661D671F4300C78F8B /* NiudunRotation.h */,
+				EDD60D671D671F4300C78F8B /* NiudunRotation.m */,
+				EDD60D621D671E2200C78F8B /* ShowCam-Bridging-Header.h */,
 				EDD60D4C1D671AA100C78F8B /* ShowCam */,
 				EDD60D4B1D671AA100C78F8B /* Products */,
 			);
@@ -123,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD60D581D671AA100C78F8B /* LaunchScreen.storyboard in Resources */,
+				EDD60D6A1D6724FF00C78F8B /* oval.png in Resources */,
 				EDD60D551D671AA100C78F8B /* Assets.xcassets in Resources */,
 				EDD60D531D671AA100C78F8B /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			files = (
 				EDD60D501D671AA100C78F8B /* ViewController.swift in Sources */,
 				EDD60D4E1D671AA100C78F8B /* AppDelegate.swift in Sources */,
+				EDD60D681D671F4300C78F8B /* NiudunRotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +263,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShowCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.ShowCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShowCam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +281,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ShowCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.ShowCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShowCam-Bridging-Header.h";
 			};
 			name = Release;
 		};
