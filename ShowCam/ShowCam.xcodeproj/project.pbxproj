@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD60D4E1D671AA100C78F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD60D4D1D671AA100C78F8B /* AppDelegate.swift */; };
+		EDD60D501D671AA100C78F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD60D4F1D671AA100C78F8B /* ViewController.swift */; };
+		EDD60D531D671AA100C78F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D511D671AA100C78F8B /* Main.storyboard */; };
+		EDD60D551D671AA100C78F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D541D671AA100C78F8B /* Assets.xcassets */; };
+		EDD60D581D671AA100C78F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD60D561D671AA100C78F8B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDD60D4A1D671AA100C78F8B /* ShowCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD60D4D1D671AA100C78F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDD60D4F1D671AA100C78F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDD60D521D671AA100C78F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD60D541D671AA100C78F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD60D571D671AA100C78F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDD60D591D671AA100C78F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD60D471D671AA100C78F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD60D411D671AA100C78F8B = {
+			isa = PBXGroup;
+			children = (
+				EDD60D4C1D671AA100C78F8B /* ShowCam */,
+				EDD60D4B1D671AA100C78F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD60D4B1D671AA100C78F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD60D4A1D671AA100C78F8B /* ShowCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD60D4C1D671AA100C78F8B /* ShowCam */ = {
+			isa = PBXGroup;
+			children = (
+				EDD60D4D1D671AA100C78F8B /* AppDelegate.swift */,
+				EDD60D4F1D671AA100C78F8B /* ViewController.swift */,
+				EDD60D511D671AA100C78F8B /* Main.storyboard */,
+				EDD60D541D671AA100C78F8B /* Assets.xcassets */,
+				EDD60D561D671AA100C78F8B /* LaunchScreen.storyboard */,
+				EDD60D591D671AA100C78F8B /* Info.plist */,
+			);
+			path = ShowCam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD60D491D671AA100C78F8B /* ShowCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD60D5C1D671AA100C78F8B /* Build configuration list for PBXNativeTarget "ShowCam" */;
+			buildPhases = (
+				EDD60D461D671AA100C78F8B /* Sources */,
+				EDD60D471D671AA100C78F8B /* Frameworks */,
+				EDD60D481D671AA100C78F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowCam;
+			productName = ShowCam;
+			productReference = EDD60D4A1D671AA100C78F8B /* ShowCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD60D421D671AA100C78F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lotawei;
+				TargetAttributes = {
+					EDD60D491D671AA100C78F8B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EDD60D451D671AA100C78F8B /* Build configuration list for PBXProject "ShowCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD60D411D671AA100C78F8B;
+			productRefGroup = EDD60D4B1D671AA100C78F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD60D491D671AA100C78F8B /* ShowCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD60D481D671AA100C78F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD60D581D671AA100C78F8B /* LaunchScreen.storyboard in Resources */,
+				EDD60D551D671AA100C78F8B /* Assets.xcassets in Resources */,
+				EDD60D531D671AA100C78F8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD60D461D671AA100C78F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD60D501D671AA100C78F8B /* ViewController.swift in Sources */,
+				EDD60D4E1D671AA100C78F8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDD60D511D671AA100C78F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD60D521D671AA100C78F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD60D561D671AA100C78F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD60D571D671AA100C78F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD60D5A1D671AA100C78F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDD60D5B1D671AA100C78F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDD60D5D1D671AA100C78F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShowCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.ShowCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDD60D5E1D671AA100C78F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShowCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.cn.ShowCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD60D451D671AA100C78F8B /* Build configuration list for PBXProject "ShowCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD60D5A1D671AA100C78F8B /* Debug */,
+				EDD60D5B1D671AA100C78F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD60D5C1D671AA100C78F8B /* Build configuration list for PBXNativeTarget "ShowCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD60D5D1D671AA100C78F8B /* Debug */,
+				EDD60D5E1D671AA100C78F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD60D421D671AA100C78F8B /* Project object */;
+}
